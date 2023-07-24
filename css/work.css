@@ -1,0 +1,56 @@
+.work {
+    background-color: rgba(133, 220, 255, 1);
+    width: 100%;
+    min-height: 100%;
+    padding: 2em 0;
+}
+
+.work h2 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.work-list {
+    display:flex; 
+    justify-content: center;
+    flex-direction:row; 
+    width: 100%;
+}
+
+
+
+.work-list-left,
+.work-list-right {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    flex-wrap: wrap;
+    list-style-type: none;
+    line-height: 1.2;
+
+}
+
+.work-list li {
+    list-style-type: none;
+}
+
+.work-list ul li:before {
+    content: '\2022';
+    /* font-size: x-large; */
+    font-size: 3em;
+    text-align: center;
+}
+
+.work-lin-container {
+    text-align: center;
+}
+
+.work-link {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 1em 5em;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+
+}

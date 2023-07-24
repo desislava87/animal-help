@@ -1,0 +1,15 @@
+.animals {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.animals-img {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    gap: 3em;
+    aspect-ratio: 5/1;
+}
+
+

@@ -1,0 +1,26 @@
+header {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header > a,
+header > nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header > a {
+    padding: 1.0em 5em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+header > nav > ul > li{
+    list-style-type: none;
+    padding: 1.0em 1em;
+    margin-right: 1em;
+    font-size: 1.5em;
+    font-weight: 700;
+}

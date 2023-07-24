@@ -1,0 +1,43 @@
+.get-alerts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10em;
+}
+
+.get-alerts > img {
+    width: 50%;
+}
+
+.get-alerts-right {
+    margin: auto;
+    width: 25%;
+}
+
+.get-alerts-right > h2 {
+    margin-bottom: 2em;
+
+}
+.get-alerts-right > p,
+.get-alerts-right > form  {
+    margin-bottom: 3em;
+}
+
+.get-alerts-right > form > input {
+    width: 45%;
+    padding: 1em;
+    border: 1px solid  rgba(226, 226, 226, 1);
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+.get-alerts-right > button {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 25%;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    font-weight: 600;
+}

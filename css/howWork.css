@@ -1,0 +1,25 @@
+.how-work > h2 {
+    text-align: center;
+    padding-top: 3em;
+}
+
+.how-work-item {
+    border: 1px solid rgba(226, 226, 226, 1);
+    border-radius: 10px;
+    width: 70%;
+    margin: 3em auto;
+}
+
+.how-work-item > h3 {
+    background-color: rgba(133, 220, 255, 1);
+    padding: 1em 2em;
+    font-weight: bold;
+}
+
+.how-work-item > p {
+    font-size: 1.7em;
+    font-weight: 500;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
